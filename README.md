@@ -86,11 +86,12 @@ algorithms described.
 
 ### Development
 
-To run the all tests run:
+To run the all tests, install and run tox:
 
+    pip install tox pytest
     tox
 
-Note, to combine the coverage data from all the tox environments run:
+Note: to combine the coverage data from all the tox environments run:
 
 * Windows
     ```
